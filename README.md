@@ -3,6 +3,19 @@ MIP SDK
 
 Welcome to the official MIP Software Development Kit.
 
+How to Compile in corgi_ws
+------------
+```
+$ cd corgi_ws
+$ git clone https://github.com/hiho817/mip_sdk.git
+$ cd mip_sdk
+$ mkdir build
+$ cd build
+$ cmake .. -DMIP_USE_SERIAL=ON -DCMAKE_PREFIX_PATH=$HOME/corgi_ws/install -DCMAKE_INSTALL_PREFIX=$HOME/corgi_ws/install
+$ make -j16
+$ make install
+```
+
 
 Features
 --------
