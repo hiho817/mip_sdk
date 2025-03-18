@@ -7,7 +7,7 @@ How to Compile in corgi_ws
 ------------
 ```
 $ cd corgi_ws
-$ git clone https://github.com/hiho817/mip_sdk.git
+$ git clone --branch fix-install-interface --single branch https://github.com/hiho817/mip_sdk.git
 $ cd mip_sdk
 $ mkdir build
 $ cd build
